@@ -36,6 +36,10 @@ public class DemoDeviceAdminReceiver extends DeviceAdminReceiver {
     @Override
     public void onDisabled(final Context context, Intent intent) {
         super.onDisabled(context, intent);
+        Intent intent1 = new Intent(context,LockActivity.class);
+        context.startActivity(intent1);
+
+
         // Handle device admin disabled scenario for devices from Lollipop onwards.
         // If uninstall action from inside N4E app don't do anything.
        /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !TargetUtils.getUninstallActionStatus(context) &&
@@ -68,6 +72,10 @@ public class DemoDeviceAdminReceiver extends DeviceAdminReceiver {
             }, 240000);
         }
         Log.d(TAG, "onDisabled");*/
+        Log.d(TAG, "onDisabled");
+
+
+
     }
 
     @Override

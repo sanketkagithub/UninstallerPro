@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">UninstallBlockerPro</string>
     <string name="device_admin_disable_alert">devadmin disb elert</string>
-    <string name="device_description">Disable the Force Stop button using Device Policy Manager API</string>
+    <string name="device_description">
+        Disable  the Force Stop button using Device Policy Manager API
+        Descipo oooooooooooooooooooooooo in xml must be in string
+    </string>
     <string name="device_admin_label">Device Admin</string>
 
 </resources>
